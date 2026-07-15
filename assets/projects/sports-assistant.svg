@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07372E"/><stop offset="1" stop-color="#0B8A72"/></linearGradient></defs><rect width="1200" height="720" rx="28" fill="url(#g)"/><rect x="90" y="82" width="1020" height="556" rx="24" fill="white" fill-opacity=".96"/><circle cx="135" cy="123" r="10" fill="#FF6B6B"/><circle cx="170" cy="123" r="10" fill="#FFD166"/><circle cx="205" cy="123" r="10" fill="#42D392"/><rect x="130" y="185" width="430" height="38" rx="19" fill="#EAF0F8"/><rect x="130" y="250" width="740" height="24" rx="12" fill="#D9E3F2"/><rect x="130" y="292" width="630" height="24" rx="12" fill="#D9E3F2"/><rect x="130" y="355" width="940" height="180" rx="20" fill="#087B69" fill-opacity=".12"/><text x="600" y="455" text-anchor="middle" font-size="64" font-family="Arial" font-weight="700" fill="#087B69">AI SPORTS ASSISTANT</text><text x="600" y="510" text-anchor="middle" font-size="26" font-family="Arial" fill="#63718A">Intelligent Sports Office Service</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#073a31"/><stop offset="1" stop-color="#0b8a72"/></linearGradient></defs>
+<rect width="1200" height="720" rx="28" fill="url(#g)"/>
+<rect x="86" y="74" width="1028" height="572" rx="26" fill="#fff" fill-opacity=".97"/>
+<circle cx="132" cy="118" r="10" fill="#ff6b6b"/><circle cx="168" cy="118" r="10" fill="#ffd166"/><circle cx="204" cy="118" r="10" fill="#42d392"/>
+<rect x="126" y="184" width="440" height="42" rx="21" fill="#e9eef6"/>
+<rect x="126" y="254" width="760" height="25" rx="12" fill="#d6e0ee"/>
+<rect x="126" y="298" width="660" height="25" rx="12" fill="#d6e0ee"/>
+<rect x="126" y="365" width="948" height="190" rx="22" fill="#087b69" fill-opacity=".11"/>
+<text x="600" y="455" text-anchor="middle" font-size="68" font-family="Arial,sans-serif" font-weight="700" fill="#087b69">AI SPORTS ASSISTANT</text>
+<text x="600" y="510" text-anchor="middle" font-size="27" font-family="Arial,sans-serif" fill="#65728a">Intelligent Campus Service</text>
+</svg>
