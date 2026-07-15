@@ -1,8 +1,6 @@
-# NTPU AI Aquila Project — Refactored Website
+# NTPU AI Aquila Project - IFIT-inspired layout
 
-Upload all files and the complete `assets` folder to the root of the GitHub Pages repository.
+Upload index.html, style.css, script.js and the complete assets folder to the root of the GitHub Pages repository.
 
-Current shared mailbox in the code:
-ntpu.ai.lab@gmail.com
-
-To change it, search for that address in `index.html` and replace all occurrences.
+Current shared mailbox: ntpu.ai.lab@gmail.com
+Replace all occurrences in index.html if your team mailbox is different.
