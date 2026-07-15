@@ -1,22 +1,12 @@
-# NTPU AI Aquila Project 網站
+# NTPU AI Aquila Project Website v2
 
-這是一個可直接發布到 GitHub Pages 的靜態網站。
+Upload `index.html`, `style.css`, `script.js`, and the entire `assets` folder to the root of the GitHub Pages repository.
 
-## 檔案
-- `index.html`：網站內容
-- `style.css`：版面與視覺設計
-- `script.js`：手機選單、成員分類功能
+## Replace student photos
+Replace the SVG files in `assets/team/` with approved portraits and update the matching image path in `index.html`, or keep the same file basename. Recommended ratio: 4:5, at least 800 × 1000 px.
 
-## 最簡單的發布方式
-1. 在 GitHub 建立名稱為 `你的帳號.github.io` 的 public repository。
-2. 將本資料夾內三個檔案上傳到 repository 最外層。
-3. 到 Settings → Pages。
-4. Source 選擇 Deploy from a branch。
-5. Branch 選 main，資料夾選 /(root)，按 Save。
-6. 稍候後開啟 `https://你的帳號.github.io/`。
+## Team email
+The current website email is `ntpu.ai.lab@gmail.com`. Search and replace this address in `index.html` if the new shared mailbox is different.
 
-## 修改文字
-直接編輯 `index.html`。
-
-## 修改顏色
-直接編輯 `style.css`，搜尋 `#225cff` 或 `#07152f`。
+## Chinese / English
+All translated text is stored in `script.js`.

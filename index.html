@@ -1,381 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="NTPU AI Aquila Project 技術研發團隊">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NTPU AI Aquila Project 技術研發團隊官方網站">
+  <meta property="og:title" content="NTPU AI Aquila Project">
+  <meta property="og:description" content="技術開發、實作支援與 AI 教育訓練團隊">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ntpu-ai-aquila.github.io/">
   <title>NTPU AI Aquila Project</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#home">
-      <span class="logo">A</span>
-      <span><strong>Aquila Project</strong><small>NTPU AI</small></span>
-    </a>
-    <button class="menu" aria-label="開啟選單">☰</button>
-    <nav>
-      <a href="#about">團隊介紹</a>
-      <a href="#faculty">指導教授</a>
-      <a href="#services">服務內容</a>
-      <a href="#projects">成果展示</a>
-      <a href="#team">團隊成員</a>
-      
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="#home"><span class="brand-mark">A</span><span><strong>Aquila Project</strong><small>NTPU AI · TECHNICAL R&amp;D TEAM</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav">
+      <a href="#about" data-i18n="nav.about">團隊介紹</a><a href="#faculty" data-i18n="nav.faculty">指導教授</a><a href="#services" data-i18n="nav.services">服務內容</a><a href="#projects" data-i18n="nav.projects">成果展示</a><a href="#team" data-i18n="nav.team">團隊成員</a><a href="#contact" data-i18n="nav.contact">聯絡我們</a>
     </nav>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">NTPU AI · TECHNICAL R&D TEAM</p>
-        <h1>讓 AI 從構想，<br><span>走向真正可用的成果。</span></h1>
-        <p class="lead">
-          NTPU AI Aquila Project 技術研發團隊由跨領域學生組成，
-          提供技術開發、實作支援，並擔任教育訓練課程助教。
-        </p>
-        <div class="buttons">
-          <a class="button primary" href="#team">認識團隊</a>
-          <a class="button secondary" href="#services">查看服務</a>
-        </div>
-        <div class="stats">
-          <div><strong>10</strong><span>團隊編制</span></div>
-          <div><strong>7</strong><span>現有成員</span></div>
-          <div><strong>4</strong><span>技術領域</span></div>
-        </div>
-      </div>
-
-      <div class="hero-art" aria-hidden="true">
-        <div class="orbit one"></div>
-        <div class="orbit two"></div>
-        <div class="main-card">
-          <span>AQUILA</span>
-          <div class="big-a">A</div>
-          <p>BUILD · SUPPORT · EDUCATE</p>
-        </div>
-        <div class="chip chip-1">AI</div>
-        <div class="chip chip-2">&lt;/&gt;</div>
-        <div class="chip chip-3">DATA</div>
-      </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="section-heading">
-        <p>ABOUT US</p>
-        <h2>跨領域合作，打造可落地的 AI 解決方案</h2>
-        <span>團隊結合資訊管理、統計與企業管理背景，從需求釐清、原型建置到課程協作，提供完整支援。</span>
-      </div>
-      <div class="about-box">
-        <div>
-          <small>OUR MISSION</small>
-          <h3>降低 AI 專案從想法到實作之間的距離</h3>
-        </div>
-        <p>
-          我們重視的不只是模型與程式，也重視實際使用情境、團隊溝通與成果延續。
-          透過跨專業協作，讓 AI 技術真正服務教學、研究及產業需求。
-        </p>
-      </div>
-    </section>
-    
-    <section class="section faculty-section" id="faculty">
-
-  <div class="section-heading">
-    <p>FACULTY ADVISORS</p>
-    <h2>指導教授</h2>
-    <span>
-      由跨領域專業師資提供研究方向、技術發展與專案實作指導，
-      協助團隊將 AI 技術應用於教學、研究與校園服務。
-    </span>
+    <button class="lang-toggle" type="button" aria-label="Switch language"><span class="lang-current">EN</span></button>
   </div>
-
-  <div class="faculty-grid">
-
-    <!-- 汪志堅主任 -->
-    <article class="faculty-card">
-
-      <div class="faculty-photo">
-        <img
-          src="images/unnamed.jpg"
-          alt="汪志堅主任照片">
-      </div>
-
-      <div class="faculty-content">
-
-        <span class="faculty-label">FACULTY ADVISOR</span>
-
-        <h3>汪志堅</h3>
-
-        <p class="faculty-title">
-          國立臺北大學資訊中心主任
-        </p>
-
-        <p class="faculty-description">
-          研究專長涵蓋網路行銷、電子商務與人工智慧應用，
-          提供團隊在 AI 校園應用、服務規劃及專案發展上的指導。
-        </p>
-
-        <div class="faculty-tags">
-          <span>網路行銷</span>
-          <span>電子商務</span>
-          <span>人工智慧應用</span>
-        </div>
-
-        <a
-          class="faculty-link"
-          href="https://sites.google.com/view/prof-wang/"
-          target="_blank"
-          rel="noopener noreferrer">
-          查看教授頁面 ↗
-        </a>
-
-      </div>
-
-    </article>
-
-    <!-- 戴敏育教授 -->
-    <article class="faculty-card">
-
-      <div class="faculty-photo">
-        <img
-          src="images/Myday_Photo.jpg"
-          alt="戴敏育教授照片">
-      </div>
-
-      <div class="faculty-content">
-
-        <span class="faculty-label">FACULTY ADVISOR</span>
-
-        <h3>戴敏育</h3>
-
-        <p class="faculty-title">
-          國立臺北大學資訊管理研究所教授兼所長
-        </p>
-
-        <p class="faculty-description">
-          研究專長涵蓋人工智慧、代理式 AI、永續綠色金融科技、
-          大數據分析、電子商務、資訊系統評量及生物醫學資訊。
-        </p>
-
-        <div class="faculty-tags">
-          <span>人工智慧</span>
-          <span>代理式 AI</span>
-          <span>大數據分析</span>
-          <span>綠色金融科技</span>
-          <span>電子商務</span>
-        </div>
-
-        <a
-          class="faculty-link"
-          href="https://web.ntpu.edu.tw/~myday/cindex.htm"
-          target="_blank"
-          rel="noopener noreferrer">
-          查看教授頁面 ↗
-        </a>
-
-      </div>
-
-    </article>
-
+</header>
+<main id="main">
+<section class="hero" id="home">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="kicker" data-i18n="hero.kicker">國立臺北大學 · AI AQUILA 技術研發團隊</p>
+      <h1 data-i18n-html="hero.title">讓 AI 從構想，<br><em>走向可用的成果。</em></h1>
+      <p class="hero-lead" data-i18n="hero.lead">由跨領域學生組成的技術研發團隊，提供 AI 技術開發、專案實作支援，並擔任教育訓練課程助教。</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#projects" data-i18n="hero.projects">探索成果</a><a class="btn btn-ghost" href="#team" data-i18n="hero.team">認識團隊</a></div>
+    </div>
+    <div class="hero-system" aria-hidden="true"><div class="ring ring-a"></div><div class="ring ring-b"></div><div class="core"><span>A</span><strong>AQUILA</strong><small>BUILD · SUPPORT · EDUCATE</small></div><b class="node n1">AI</b><b class="node n2">R&amp;D</b><b class="node n3">DATA</b></div>
   </div>
-
+  <div class="ticker"><div><span>GENERATIVE AI ✦ AGENTIC AI ✦ COMPUTER VISION ✦ AUTOMATION ✦ ESG ✦ SMART CAMPUS ✦</span><span>GENERATIVE AI ✦ AGENTIC AI ✦ COMPUTER VISION ✦ AUTOMATION ✦ ESG ✦ SMART CAMPUS ✦</span></div></div>
 </section>
-    
-    <section class="section gray" id="services">
-      <div class="section-heading">
-        <p>WHAT WE DO</p>
-        <h2>三大服務方向</h2>
-      </div>
-      <div class="service-grid">
-        <article class="service-card">
-          <b>01</b><i>⌘</i>
-          <h3>技術開發</h3>
-          <p>依照專案需求進行 AI 系統、生成式 AI、影像辨識、自動化流程及應用原型開發。</p>
-        </article>
-        <article class="service-card">
-          <b>02</b><i>◇</i>
-          <h3>實作支援</h3>
-          <p>協助需求分析、技術選型、測試除錯與成果展示，讓專案能順利推進與落地。</p>
-        </article>
-        <article class="service-card">
-          <b>03</b><i>△</i>
-          <h3>教育訓練</h3>
-          <p>擔任 AI 教育訓練課程助教，提供課堂協助、實作指導與學習問題排解。</p>
-        </article>
-      </div>
-    </section>
-<section class="section" id="projects">
-
-  <div class="section-heading">
-    <p>FEATURED PROJECT</p>
-    <h2>成果展示</h2>
-    <span>
-      我們將 AI 技術實際應用於校園服務，
-      持續開發智慧對話、資訊查詢與行政支援工具，
-      為校內師生提供更便利的 AI 應用體驗。
-    </span>
-    
-    </div>
-    <div class="projects-grid">
-
-      <article class="project-card">
-
-        <img
-          src="https://placehold.co/600x340/102b5c/ffffff?text=NTPU+AI"
-          alt="NTPU AI">
-
-        <div class="project-content">
-
-          <span class="status live">已上線</span>
-
-          <h3>NTPU AI</h3>
-
-          <p>
-            國立臺北大學 AI 智慧對話平台，
-            提供 AI Chat、校內搜尋、
-            網路搜尋與檔案分析等功能。
-          </p>
-
-          <a
-            href="https://ntpuai.aifitesg.org/"
-            target="_blank">
-            前往體驗 →
-          </a>
-
-        </div>
-
-      </article
-        <article class="project-card">
-
-        <img
-          src="https://placehold.co/600x340/102b5c/ffffff?text=AI+Sports+Assistant
-          alt="NTPU AI">
-
-        <div class="project-content">
-
-          <span class="status live">已上線</span>
-
-          <h3>AI 體育室助理</h3>
-
-          <p>
-            提供體育室相關資訊查詢、
-            場地與行政資訊問答，
-            打造智慧校園服務體驗。
-          </p>
-
-          <a
-            href="https://ntpuassistant.aifitesg.org/"
-            target="_blank">
-            前往體驗 →
-          </a>
-
-        </div>
-
-      </article>
-
-    </div>
-  
-    </section>
-
-    <section class="section" id="team">
-      <div class="section-heading row">
-        <div>
-          <p>OUR TEAM</p>
-          <h2>技術研發團隊成員</h2>
-        </div>
-        <span>點擊成員卡片中的連結，可查看個人網站與作品。</span>
-      </div>
-
-      <div class="filters">
-        <button class="active" data-filter="all">全部</button>
-        <button data-filter="tech">技術與系統</button>
-        <button data-filter="business">管理與應用</button>
-      
-      </div>
-      
-      <div class="team-grid">
-        
-        <article class="member" data-category="tech">
-          <div class="member-head"><span class="avatar">盧</span><a href="https://luboblu.github.io/" target="_blank" rel="noopener">↗</a></div>
-          <h3>盧信廷</h3>
-          <p class="role">資訊管理研究所・碩二</p>
-          <p class="edu">輔仁大學資訊管理研究所</p>
-          <div class="tags"><span>生成式 AI</span><span>ESG</span></div>
-          <a class="profile" href="https://luboblu.github.io/" target="_blank" rel="noopener">查看個人網站</a>
-        </article>
-
-        <article class="member" data-category="business">
-          <div class="member-head"><span class="avatar">陳</span><a href="https://borjen.github.io/" target="_blank" rel="noopener">↗</a></div>
-          <h3>陳柏臻</h3>
-          <p class="role">資訊管理研究所・碩二</p>
-          <p class="edu">國立臺北大學金融與合作經營學系學士</p>
-          <div class="tags"><span>AI 應用</span><span>ESG 報告書</span></div>
-          <a class="profile" href="https://borjen.github.io/" target="_blank" rel="noopener">查看個人網站</a>
-        </article>
-
-        <article class="member" data-category="tech">
-          <div class="member-head"><span class="avatar">李</span></div>
-          <h3>李庭甄</h3>
-          <p class="role">資訊管理研究所・碩二</p>
-          <p class="edu">長庚大學資訊管理學系學士</p>
-          <div class="tags"><span>AI 系統開發</span><span>影像辨識</span></div>
-        </article>
-
-        <article class="member" data-category="tech">
-          <div class="member-head"><span class="avatar">黃</span><a href="https://wesley7745.github.io/Works-and-Achievements/" target="_blank" rel="noopener">↗</a></div>
-          <h3>黃暐宸</h3>
-          <p class="role">統計學系・大四</p>
-          <p class="edu">國立臺北大學統計學系學士</p>
-          <div class="tags"><span>生成式 AI</span><span>Agent</span><span>Automation</span></div>
-          <a class="profile" href="https://wesley7745.github.io/Works-and-Achievements/" target="_blank" rel="noopener">查看作品與經歷</a>
-        </article>
-
-        <article class="member" data-category="tech">
-          <div class="member-head"><span class="avatar">陳</span><a href="https://wenzechen.github.io/" target="_blank" rel="noopener">↗</a></div>
-          <h3>陳文澤</h3>
-          <p class="role">資訊管理研究所・碩二</p>
-          <p class="edu">國立臺北大學企業管理學系學士</p>
-          <div class="tags"><span>VLM</span><span>牙科植體應用</span></div>
-          <a class="profile" href="https://wenzechen.github.io/" target="_blank" rel="noopener">查看個人網站</a>
-        </article>
-
-        <article class="member" data-category="tech">
-          <div class="member-head"><span class="avatar">侯</span></div>
-          <h3>侯惠晏</h3>
-          <p class="role">資訊管理研究所・碩二</p>
-          <p class="edu">東吳大學資訊管理學系學士</p>
-          <div class="tags"><span>AI 系統開發</span><span>影像辨識</span></div>
-        </article>
-
-        <article class="member" data-category="business">
-          <div class="member-head"><span class="avatar">陳</span></div>
-          <h3>陳杰威</h3>
-          <p class="role">企業管理研究所・碩二</p>
-          <p class="edu">國立中正大學企業管理學系學士</p>
-          <div class="tags"><span>行銷</span><span>人力資源管理</span></div>
-        </article>
-
-        </div>
-      
-        </section>
-
-        <section class="cta">
-      <div>
-        <small>BUILD THE FUTURE WITH AI</small>
-        <h2>有AI技術開發、實作支援或教育訓練需求嗎？</h2>
-      </div>
-      <a class="button light" href="mailto:ntpu.ai.lab@gmail.com?subject=NTPU%20AI%20Aquila%20Project%20合作洽詢">聯絡團隊</a>
-    </section>
-  </main>
-
-  <footer>
-    <div class="brand">
-      <span class="logo">A</span>
-      <span><strong>Aquila Project</strong><small>NTPU AI</small></span>
-    </div>
-    <p>
-  © <span id="year"></span> NTPU AI Aquila Project · National Taipei University
-</p>
-  </footer>
-
-  <script src="script.js"></script>
+<section class="section" id="about">
+  <div class="section-index">01 / ABOUT</div>
+  <div class="section-grid"><div><p class="eyebrow" data-i18n="about.eyebrow">ABOUT THE TEAM</p><h2 data-i18n="about.title">跨領域合作，打造可落地的 AI 解決方案</h2></div><div class="body-copy"><p data-i18n="about.p1">NTPU AI Aquila Project 結合資訊管理、統計與企業管理背景，從需求釐清、技術選型、原型建置、測試到成果展示，協助校園與合作單位推動 AI 應用。</p><p data-i18n="about.p2">我們重視的不只有模型與程式，也重視使用情境、溝通品質、資訊倫理與成果的可持續性。</p></div></div>
+  <div class="metrics"><article><strong>02</strong><span data-i18n="metrics.faculty">位指導教授</span></article><article><strong>07</strong><span data-i18n="metrics.members">位公開成員</span></article><article><strong>03</strong><span data-i18n="metrics.services">項核心服務</span></article><article><strong>02</strong><span data-i18n="metrics.projects">項上線成果</span></article></div>
+</section>
+<section class="section dark" id="faculty">
+  <div class="section-index light">02 / FACULTY</div>
+  <div class="section-heading inverse"><p class="eyebrow" data-i18n="faculty.eyebrow">FACULTY ADVISORS</p><h2 data-i18n="faculty.title">指導教授</h2><p data-i18n="faculty.lead">提供研究方向、技術發展、校園應用與專案實作指導。</p></div>
+  <div class="faculty-grid">
+    <article class="faculty-card"><div class="faculty-photo"><img src="assets/team/wang-chih-chien.jpg" alt="汪志堅主任"></div><div class="faculty-info"><p class="overline">FACULTY ADVISOR</p><h3 data-i18n="faculty.wang.name">汪志堅</h3><p class="faculty-role" data-i18n="faculty.wang.role">國立臺北大學資訊中心主任</p><p data-i18n="faculty.wang.desc">研究專長涵蓋網路行銷、電子商務與人工智慧應用，提供團隊在 AI 校園應用、服務規劃及專案發展上的指導。</p><div class="chips"><span data-i18n="tag.marketing">網路行銷</span><span data-i18n="tag.ecommerce">電子商務</span><span data-i18n="tag.aiapp">人工智慧應用</span></div><a class="text-link" href="https://sites.google.com/view/prof-wang/" target="_blank" rel="noopener" data-i18n="common.profile">查看個人頁面 ↗</a></div></article>
+    <article class="faculty-card"><div class="faculty-photo"><img src="assets/team/dai-min-yuh.jpg" alt="戴敏育教授"></div><div class="faculty-info"><p class="overline">FACULTY ADVISOR</p><h3 data-i18n="faculty.dai.name">戴敏育</h3><p class="faculty-role" data-i18n="faculty.dai.role">國立臺北大學資訊管理研究所教授兼所長</p><p data-i18n="faculty.dai.desc">研究專長涵蓋人工智慧、代理式 AI、永續綠色金融科技、大數據分析、電子商務、資訊系統評量及生物醫學資訊。</p><div class="chips"><span data-i18n="tag.ai">人工智慧</span><span data-i18n="tag.agentic">代理式 AI</span><span data-i18n="tag.bigdata">大數據分析</span><span data-i18n="tag.greenfintech">綠色金融科技</span></div><a class="text-link" href="https://web.ntpu.edu.tw/~myday/cindex.htm" target="_blank" rel="noopener" data-i18n="common.profile">查看個人頁面 ↗</a></div></article>
+  </div>
+</section>
+<section class="section" id="services">
+  <div class="section-index">03 / SERVICES</div>
+  <div class="section-heading split"><div><p class="eyebrow" data-i18n="services.eyebrow">WHAT WE DO</p><h2 data-i18n="services.title">三項核心服務</h2></div><p data-i18n="services.lead">從開發、落地到學習支援，形成完整的 AI 專案協作流程。</p></div>
+  <div class="service-list"><article><span>01</span><h3 data-i18n="services.dev.title">技術開發</h3><p data-i18n="services.dev.desc">進行生成式 AI、代理式 AI、影像辨識、自動化流程及智慧系統原型開發。</p><b>↗</b></article><article><span>02</span><h3 data-i18n="services.support.title">實作支援</h3><p data-i18n="services.support.desc">協助需求分析、技術選型、測試除錯、部署與成果展示，推進專案落地。</p><b>↗</b></article><article><span>03</span><h3 data-i18n="services.edu.title">教育訓練</h3><p data-i18n="services.edu.desc">擔任 AI 教育訓練課程助教，提供實作指導、教材協作與學習問題排解。</p><b>↗</b></article></div>
+</section>
+<section class="section projects" id="projects">
+  <div class="section-index">04 / PROJECTS</div>
+  <div class="section-heading split"><div><p class="eyebrow" data-i18n="projects.eyebrow">SELECTED WORK</p><h2 data-i18n="projects.title">成果展示</h2></div><p data-i18n="projects.lead">將 AI 技術實際應用於智慧對話、校內資訊查詢與行政服務。</p></div>
+  <div class="projects-grid">
+    <article class="project-card"><a class="project-visual" href="https://ntpuai.aifitesg.org/" target="_blank" rel="noopener"><img src="assets/projects/ntpu-ai.svg" alt="NTPU AI"></a><div class="project-meta"><span data-i18n="common.live">已上線</span><span>2026</span></div><h3>NTPU AI</h3><p data-i18n="projects.ntpu.desc">國立臺北大學智慧對話平台，整合 AI Chat、校內搜尋、網路搜尋與檔案分析等功能。</p><div class="project-tags"><span>AI Chat</span><span>Search</span><span>File Analysis</span></div><a class="dark-link" href="https://ntpuai.aifitesg.org/" target="_blank" rel="noopener" data-i18n="common.visit">前往體驗 ↗</a></article>
+    <article class="project-card"><a class="project-visual" href="https://ntpuassistant.aifitesg.org/" target="_blank" rel="noopener"><img src="assets/projects/sports-assistant.svg" alt="AI Sports Assistant"></a><div class="project-meta"><span data-i18n="common.live">已上線</span><span>2026</span></div><h3 data-i18n="projects.sports.title">AI 體育室助理</h3><p data-i18n="projects.sports.desc">提供體育室相關資訊、場地與行政問題查詢，打造更便利的智慧校園服務體驗。</p><div class="project-tags"><span>AI Assistant</span><span>Sports</span><span>Campus Service</span></div><a class="dark-link" href="https://ntpuassistant.aifitesg.org/" target="_blank" rel="noopener" data-i18n="common.visit">前往體驗 ↗</a></article>
+  </div>
+</section>
+<section class="section" id="team">
+  <div class="section-index">05 / TEAM</div>
+  <div class="section-heading split"><div><p class="eyebrow" data-i18n="team.eyebrow">TECHNICAL R&amp;D TEAM</p><h2 data-i18n="team.title">技術研發團隊成員</h2></div><p data-i18n="team.photoNote">目前學生照片使用統一示意圖；取得本人同意後，只需用同檔名覆蓋圖片即可。</p></div>
+  <div class="team-grid">
+    <article class="member"><img src="assets/team/lu-hsin-ting.svg" alt="盧信廷"><div><h3 data-i18n="member.lu.name">盧信廷</h3><p class="member-role" data-i18n="member.lu.role">資訊管理研究所・碩二</p><p data-i18n="member.lu.focus">生成式 AI 應用、ESG</p><a href="https://luboblu.github.io/" target="_blank" rel="noopener" data-i18n="common.profile">查看個人頁面 ↗</a></div></article>
+    <article class="member"><img src="assets/team/chen-bor-jen.svg" alt="陳柏臻"><div><h3 data-i18n="member.borjen.name">陳柏臻</h3><p class="member-role" data-i18n="member.borjen.role">資訊管理研究所・碩二</p><p data-i18n="member.borjen.focus">AI 應用於 ESG 報告書</p><a href="https://borjen.github.io/" target="_blank" rel="noopener" data-i18n="common.profile">查看個人頁面 ↗</a></div></article>
+    <article class="member"><img src="assets/team/li-ting-chen.svg" alt="李庭甄"><div><h3 data-i18n="member.li.name">李庭甄</h3><p class="member-role" data-i18n="member.li.role">資訊管理研究所・碩二</p><p data-i18n="member.li.focus">AI 系統開發、影像辨識</p></div></article>
+    <article class="member"><img src="assets/team/huang-wei-chen.svg" alt="黃暐宸"><div><h3 data-i18n="member.huang.name">黃暐宸</h3><p class="member-role" data-i18n="member.huang.role">統計學系・大四</p><p data-i18n="member.huang.focus">生成式 AI、Agent、Automation</p><a href="https://wesley7745.github.io/Works-and-Achievements/" target="_blank" rel="noopener" data-i18n="common.profile">查看個人頁面 ↗</a></div></article>
+    <article class="member"><img src="assets/team/chen-wen-ze.svg" alt="陳文澤"><div><h3 data-i18n="member.wenze.name">陳文澤</h3><p class="member-role" data-i18n="member.wenze.role">資訊管理研究所・碩二</p><p data-i18n="member.wenze.focus">應用於牙科植體的 VLM</p><a href="https://wenzechen.github.io/" target="_blank" rel="noopener" data-i18n="common.profile">查看個人頁面 ↗</a></div></article>
+    <article class="member"><img src="assets/team/hou-hui-yen.svg" alt="侯惠晏"><div><h3 data-i18n="member.hou.name">侯惠晏</h3><p class="member-role" data-i18n="member.hou.role">資訊管理研究所・碩二</p><p data-i18n="member.hou.focus">AI 系統開發、影像辨識</p></div></article>
+    <article class="member"><img src="assets/team/chen-chieh-wei.svg" alt="陳杰威"><div><h3 data-i18n="member.chiehwei.name">陳杰威</h3><p class="member-role" data-i18n="member.chiehwei.role">企業管理研究所・碩二</p><p data-i18n="member.chiehwei.focus">行銷、人力資源管理</p></div></article>
+  </div>
+</section>
+<section class="contact" id="contact"><div><p class="eyebrow" data-i18n="contact.eyebrow">COLLABORATE WITH US</p><h2 data-i18n="contact.title">有 AI 技術開發、實作支援或教育訓練需求嗎？</h2><p data-i18n="contact.lead">歡迎透過團隊公共信箱聯絡 NTPU AI Aquila Project。</p></div><a class="btn btn-light" href="mailto:ntpu.ai.lab@gmail.com?subject=NTPU%20AI%20Aquila%20Project%20合作洽詢" data-i18n="contact.button">聯絡團隊</a></section>
+</main>
+<footer><div class="footer-brand"><span class="brand-mark">A</span><span><strong>Aquila Project</strong><small>NTPU AI · National Taipei University</small></span></div><div class="footer-links"><a href="https://github.com/ntpu-ai-aquila" target="_blank" rel="noopener">GitHub</a><a href="mailto:ntpu.ai.lab@gmail.com">Email</a><a href="https://ntpuai.aifitesg.org/" target="_blank" rel="noopener">NTPU AI</a></div><p>© <span id="year"></span> NTPU AI Aquila Project</p></footer>
+<script src="script.js"></script>
 </body>
 </html>
