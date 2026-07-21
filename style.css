@@ -726,3 +726,62 @@ footer p {
     margin-bottom: 5px;
   }
 }
+
+/* ===========================
+   Hero Marquee
+=========================== */
+
+.hero-marquee{
+    width:100%;
+    overflow:hidden;
+    margin-top:80px;
+    padding:18px 0;
+
+    border-top:1px solid rgba(255,255,255,.12);
+    border-bottom:1px solid rgba(255,255,255,.12);
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(8px);
+}
+
+.hero-marquee-track{
+
+    display:flex;
+    width:max-content;
+    animation:marquee 28s linear infinite;
+
+}
+
+.hero-marquee span{
+
+    margin-right:70px;
+
+    color:white;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
+
+    opacity:.9;
+
+}
+@keyframes marquee{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(-50%);
+
+    }
+
+}
