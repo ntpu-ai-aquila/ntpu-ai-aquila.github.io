@@ -120,14 +120,76 @@
     </div>
 
     <div class="about-grid">
-      <div class="about-visual"><div class="about-mark">A</div><p>AQUILA PROJECT</p></div>
-      <div class="about-copy">
-        <p data-i18n="about.p1">NTPU AI Aquila Project 結合資訊管理、統計與企業管理背景，協助校園與合作單位發展可實際使用的人工智慧應用。</p>
-        <p data-i18n="about.p2">我們不只關注模型與程式，也重視使用情境、資訊倫理、溝通品質及成果的可持續性。</p>
-        <div class="numbers">
-          <div><strong>02</strong><span data-i18n="stats.faculty">位指導教授</span></div>
-          <div><strong>07</strong><span data-i18n="stats.members">位公開成員</span></div>
-          <div><strong>02</strong><span data-i18n="stats.projects">項上線成果</span></div>
+      <div class="about-visual" aria-hidden="true">
+        <div class="about-matrix"></div>
+
+        <div class="about-orbit orbit-one">
+          <span></span>
+        </div>
+
+        <div class="about-orbit orbit-two">
+          <span></span>
+        </div>
+
+        <div class="about-core">
+          <span class="about-core-label">AQUILA CORE</span>
+          <strong>AI</strong>
+          <small>RESEARCH · BUILD · DEPLOY</small>
+        </div>
+
+        <span class="about-signal signal-one">01</span>
+        <span class="about-signal signal-two">10+</span>
+        <span class="about-signal signal-three">R&amp;D</span>
+      </div>
+
+      <div class="about-copy about-copy-tech">
+        <div class="about-copy-content">
+          <p data-i18n="about.p1">NTPU AI Aquila Project 結合資訊管理、統計與企業管理背景，協助校園與合作單位發展可實際使用的人工智慧應用。</p>
+          <p data-i18n="about.p2">我們不只關注模型與程式，也重視使用情境、資訊倫理、溝通品質及成果的可持續性。</p>
+
+          <div class="numbers">
+            <div><strong>02</strong><span data-i18n="stats.faculty">位指導教授</span></div>
+            <div><strong>07</strong><span data-i18n="stats.members">位公開成員</span></div>
+            <div><strong>02</strong><span data-i18n="stats.projects">項上線成果</span></div>
+          </div>
+        </div>
+
+        <div class="about-tech-map" aria-hidden="true">
+          <svg viewBox="0 0 500 270" role="img">
+            <defs>
+              <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#8bc8ff" stop-opacity=".12"/>
+                <stop offset="55%" stop-color="#316bb8" stop-opacity=".55"/>
+                <stop offset="100%" stop-color="#65d1ff" stop-opacity=".18"/>
+              </linearGradient>
+              <filter id="nodeGlow">
+                <feGaussianBlur stdDeviation="4" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+
+            <path d="M55 205 C130 180, 120 80, 225 95 S350 215, 452 90"
+                  fill="none" stroke="url(#lineGradient)" stroke-width="2"/>
+            <path d="M68 58 C145 105, 205 35, 285 72 S390 165, 455 205"
+                  fill="none" stroke="url(#lineGradient)" stroke-width="1.5"/>
+            <path d="M110 235 L200 165 L298 185 L390 105"
+                  fill="none" stroke="#5da8ef" stroke-opacity=".22" stroke-dasharray="5 9"/>
+
+            <g filter="url(#nodeGlow)">
+              <circle cx="55" cy="205" r="5" fill="#65d1ff"/>
+              <circle cx="68" cy="58" r="4" fill="#8f9cff"/>
+              <circle cx="200" cy="165" r="6" fill="#316bb8"/>
+              <circle cx="225" cy="95" r="5" fill="#65d1ff"/>
+              <circle cx="298" cy="185" r="4" fill="#67e0bd"/>
+              <circle cx="390" cy="105" r="6" fill="#8bc8ff"/>
+              <circle cx="452" cy="90" r="4" fill="#65d1ff"/>
+              <circle cx="455" cy="205" r="5" fill="#316bb8"/>
+            </g>
+          </svg>
+
+          <span class="map-tag tag-research">RESEARCH</span>
+          <span class="map-tag tag-system">SYSTEM</span>
+          <span class="map-tag tag-deploy">DEPLOY</span>
         </div>
       </div>
     </div>
