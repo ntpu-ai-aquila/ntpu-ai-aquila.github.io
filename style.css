@@ -785,3 +785,87 @@ footer p {
     }
 
 }
+/*==========================
+ HERO CHIP MARQUEE
+==========================*/
+
+.hero-marquee{
+
+    margin-top:90px;
+
+    overflow:hidden;
+
+    width:100%;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    padding:22px 0;
+
+    background:rgba(255,255,255,.03);
+
+    backdrop-filter:blur(10px);
+
+}
+.marquee-track{
+
+    display:flex;
+
+    width:max-content;
+
+    align-items:center;
+
+    animation:marquee 35s linear infinite;
+
+}
+.chip{
+
+    margin-right:20px;
+
+    padding:12px 22px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    color:white;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:
+        0 0 20px rgba(88,173,255,.08);
+
+    transition:.3s;
+
+}
+.chip:hover{
+
+    background:rgba(91,175,255,.18);
+
+    transform:translateY(-3px);
+
+}
+@keyframes marquee{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(-50%);
+
+    }
+
+}
