@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760"><rect width="600" height="760" fill="#eef2f7"/><circle cx="300" cy="280" r="145" fill="#17345f"/><text x="300" y="330" text-anchor="middle" font-family="Arial" font-size="130" font-weight="700" fill="white">侯</text><text x="300" y="560" text-anchor="middle" font-family="Arial" font-size="32" font-weight="700" fill="#17345f">Hui-Yen Hou</text><text x="300" y="610" text-anchor="middle" font-family="Arial" font-size="20" fill="#7b8799">Photo pending</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#0b2344"/>
+    <stop offset="1" stop-color="#3479d8"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="1000" fill="#edf2f7"/>
+<circle cx="400" cy="380" r="190" fill="url(#g)"/>
+<text x="400" y="440" text-anchor="middle" fill="#fff" font-size="170" font-family="Arial" font-weight="700">侯</text>
+<text x="400" y="750" text-anchor="middle" fill="#17314f" font-size="42" font-family="Arial" font-weight="700">Hui-Yen Hou</text>
+<text x="400" y="812" text-anchor="middle" fill="#6f7e91" font-size="25" font-family="Arial">Photo pending</text>
+</svg>

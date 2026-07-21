@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680"><rect width="1200" height="680" rx="28" fill="#e8efff"/><rect x="68" y="70" width="1064" height="540" rx="24" fill="white"/><circle cx="112" cy="112" r="10" fill="#ff6b6b"/><circle cx="148" cy="112" r="10" fill="#ffd166"/><circle cx="184" cy="112" r="10" fill="#42d392"/><rect x="110" y="175" width="420" height="34" rx="17" fill="#e9edf4"/><rect x="110" y="235" width="760" height="22" rx="11" fill="#dde4ef"/><rect x="110" y="275" width="610" height="22" rx="11" fill="#dde4ef"/><rect x="110" y="340" width="980" height="190" rx="18" fill="#245cff" fill-opacity=".11"/><text x="600" y="430" text-anchor="middle" font-family="Arial" font-size="62" font-weight="700" fill="#245cff">NTPU AI</text><text x="600" y="480" text-anchor="middle" font-family="Arial" font-size="25" fill="#667085">Smart Campus AI Platform</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#0b2344"/>
+    <stop offset="1" stop-color="#2e64b6"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+<rect x="82" y="70" width="1036" height="580" rx="26" fill="#fff" fill-opacity=".96"/>
+<circle cx="128" cy="114" r="10" fill="#ff6b6b"/>
+<circle cx="164" cy="114" r="10" fill="#ffd166"/>
+<circle cx="200" cy="114" r="10" fill="#42d392"/>
+<rect x="124" y="180" width="430" height="42" rx="21" fill="#e9eef6"/>
+<rect x="124" y="252" width="750" height="24" rx="12" fill="#d8e1ee"/>
+<rect x="124" y="296" width="650" height="24" rx="12" fill="#d8e1ee"/>
+<rect x="124" y="362" width="952" height="190" rx="22" fill="#285ec5" fill-opacity=".11"/>
+<text x="600" y="452" text-anchor="middle" fill="#285ec5" font-size="66" font-family="Arial" font-weight="700">NTPU AI</text>
+<text x="600" y="510" text-anchor="middle" fill="#68758a" font-size="27" font-family="Arial">Smart Campus AI Platform</text>
+</svg>

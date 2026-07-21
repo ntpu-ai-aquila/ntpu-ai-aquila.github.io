@@ -1,17 +1,31 @@
-# NTPU AI Aquila Project - IFIT-inspired layout
+# NTPU AI Aquila Project — Final Redesign
 
-Upload index.html, style.css, script.js and the complete assets folder to the root of the GitHub Pages repository.
+This version includes:
 
-Current shared mailbox: ntpu.ai.lab@gmail.com
-Replace all occurrences in index.html if your team mailbox is different.
+- Animated AI core
+- Two clearly visible rotating orbits
+- Glowing orbit nodes
+- Scanning light animation
+- Floating labels and particles
+- Infinite capability marquee
+- Chinese / English language switch
+- Faculty, team members, projects, contact, and footer
+- Responsive mobile layout
 
+## Upload
 
-## Glow Hero version
+Upload the following items to the root of the GitHub Pages repository:
 
-This version replaces the large transparent project-image background in the Hero
-with two soft radial blue glows.
+- index.html
+- style.css
+- script.js
+- README.md
+- assets folder
 
-The CSS is fully formatted and easy to edit.
-Main Hero styles begin under:
+## Shared email
 
-`/* Hero - 改法三 */`
+The current shared email is:
+
+ntpu.ai.lab@gmail.com
+
+Search and replace all occurrences in `index.html` if your actual team mailbox differs.
