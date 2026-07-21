@@ -869,3 +869,184 @@ footer p {
     }
 
 }
+/* ===========================
+   HERO TECHNOLOGY GRAPHIC
+=========================== */
+
+.hero{
+
+    position:relative;
+    overflow:hidden;
+
+}
+
+.hero-graphic{
+
+    position:absolute;
+
+    right:5%;
+
+    top:120px;
+
+    width:600px;
+
+    height:600px;
+
+    pointer-events:none;
+
+}
+.ring{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    animation:rotate 35s linear infinite;
+
+}
+
+.ring1{
+
+    width:520px;
+
+    height:520px;
+
+    left:40px;
+
+    top:20px;
+
+}
+
+.ring2{
+
+    width:350px;
+
+    height:350px;
+
+    left:120px;
+
+    top:100px;
+
+    animation-direction:reverse;
+
+    animation-duration:25s;
+
+}
+.grid{
+
+    position:absolute;
+
+    inset:40px;
+
+    border-radius:50%;
+
+    background-image:
+
+        linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+
+        linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+
+    background-size:32px 32px;
+
+    mask-image:radial-gradient(circle, black 60%, transparent 100%);
+
+}
+.glow{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(80px);
+
+}
+.glow1{
+
+    width:180px;
+
+    height:180px;
+
+    background:#3ea6ff;
+
+    right:20px;
+
+    top:80px;
+
+    opacity:.35;
+
+}
+
+.glow2{
+
+    width:250px;
+
+    height:250px;
+
+    background:#00d4ff;
+
+    bottom:20px;
+
+    left:80px;
+
+    opacity:.25;
+
+}
+.chip{
+
+    position:absolute;
+
+    left:180px;
+
+    top:180px;
+
+    width:240px;
+
+    height:240px;
+
+    border-radius:32px;
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    box-shadow:
+
+        0 0 60px rgba(0,180,255,.15);
+
+}
+.chip span{
+
+    font-size:96px;
+
+    font-weight:800;
+
+    color:white;
+
+    letter-spacing:10px;
+
+}
+@keyframes rotate{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
