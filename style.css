@@ -1088,12 +1088,11 @@ img {
 }
 
 .member img {
-  width: 128px;
-  height: 128px;
-  margin-bottom: 18px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
   background: #eef2f5;
 }
 
